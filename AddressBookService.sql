@@ -38,3 +38,6 @@ delete from AddressBook where firstname ='Varsha';
 
 #UC6
 select * from AddressBook where city = 'Surat';
+
+#UC7
+select city, state, count(*) from AddressBook group by city, state;
