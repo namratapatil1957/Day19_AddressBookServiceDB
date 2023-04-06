@@ -44,3 +44,16 @@ select city, state, count(*) from AddressBook group by city, state;
 
 #UC8
 select * from AddressBook where city = 'Surat' order by firstname;
+
+#UC9
+alter table AddressBook 
+add type varchar(50) not null;
+
+insert into AddressBook(firstname, lastname, address, city, state, zip, phone, email, type)
+values('Varsha', 'Patil', 'Mumbai', 'Mumbai', 'Maharastra', 47546, 992436187, 'dhruv@email.com', 'Friend');
+insert into AddressBook(firstname, lastname, address, city, state, zip, phone, email, type)
+values('Gitanjali', 'Chaudhary', 'Mumbai', 'Mubail', 'Maharastra', 987546, 924642187, 'dhruv@email.com', 'Friend');
+insert into AddressBook(firstname, lastname, address, city, state, zip, phone, email, type)
+values('Pranali', 'Patil', 'Pune', 'Pune', 'Maharastra', 987546, 992236187, 'pranali@email.com', 'Family');
+insert into AddressBook(firstname, lastname, address, city, state, zip, phone, email, type)
+values('Krishnanjali', 'Chaudhary', 'Mumbai', 'Mubail', 'Maharastra', 987546, 926642187, 'krishna@email.com', 'Family');
