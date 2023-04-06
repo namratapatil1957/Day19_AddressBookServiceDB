@@ -17,3 +17,15 @@ primary key(id)
 );
 
 desc AddressBook;
+
+#UC3
+insert into AddressBook(firstname, lastname, address, city, state, zip, phone, email)
+values('Namrata', 'Patil', 'Vyara', 'Surat', 'Gujarat', 345678, 834567886, 'namu@email.com');
+insert into AddressBook(firstname, lastname, address, city, state, zip, phone, email)
+values('Nikhil', 'Patel', 'Vyara', 'Surat', 'Gujarat', 340978, 123467886, 'nikhil@email.com');
+insert into AddressBook(firstname, lastname, address, city, state, zip, phone, email)
+values('Dhruv', 'Patil', 'Pune', 'Pune', 'Maharastra', 987546, 987642187, 'dhruv@email.com');
+insert into AddressBook(firstname, lastname, address, city, state, zip, phone, email)
+values('Varsha', 'Patil', 'Mumbai', 'Mumbai', 'Maharastra', 47546, 992436187, 'dhruv@email.com');
+
+select * from AddressBook;
