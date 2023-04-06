@@ -32,3 +32,6 @@ select * from AddressBook;
 
 #UC4
 update AddressBook set city = 'Nandurbar' , address = 'Shahada' where firstname = 'Dhruv';
+
+#UC5
+delete from AddressBook where firstname ='Varsha';
