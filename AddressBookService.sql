@@ -60,3 +60,9 @@ values('Krishnanjali', 'Chaudhary', 'Mumbai', 'Mubail', 'Maharastra', 987546, 92
 
 #UC10
 select type, count(*) from AddressBook group by type;
+
+#UC11
+insert into AddressBook(firstname, lastname, address, city, state, zip, phone, email, type)
+values('Nikhil', 'Patel', 'Vyara', 'Surat', 'Gujarat', 340978, 123467886, 'nikhil@email.com', 'Friend');
+insert into AddressBook(firstname, lastname, address, city, state, zip, phone, email, type)
+values('Nikhil', 'Patel', 'Vyara', 'Surat', 'Gujarat', 340978, 123467886, 'nikhil@email.com', 'Family');
