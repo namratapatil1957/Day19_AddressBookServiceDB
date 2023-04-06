@@ -41,3 +41,6 @@ select * from AddressBook where city = 'Surat';
 
 #UC7
 select city, state, count(*) from AddressBook group by city, state;
+
+#UC8
+select * from AddressBook where city = 'Surat' order by firstname;
