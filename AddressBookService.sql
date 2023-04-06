@@ -35,3 +35,6 @@ update AddressBook set city = 'Nandurbar' , address = 'Shahada' where firstname 
 
 #UC5
 delete from AddressBook where firstname ='Varsha';
+
+#UC6
+select * from AddressBook where city = 'Surat';
