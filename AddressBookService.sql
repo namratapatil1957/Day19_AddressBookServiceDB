@@ -57,3 +57,6 @@ insert into AddressBook(firstname, lastname, address, city, state, zip, phone, e
 values('Pranali', 'Patil', 'Pune', 'Pune', 'Maharastra', 987546, 992236187, 'pranali@email.com', 'Family');
 insert into AddressBook(firstname, lastname, address, city, state, zip, phone, email, type)
 values('Krishnanjali', 'Chaudhary', 'Mumbai', 'Mubail', 'Maharastra', 987546, 926642187, 'krishna@email.com', 'Family');
+
+#UC10
+select type, count(*) from AddressBook group by type;
